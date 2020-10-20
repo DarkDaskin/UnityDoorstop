@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>UnityDoorstop</id>
+    <version>3.0.2.2</version>
+    <authors>DarkDaskin</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">CC0-1.0</license>
+    <description>Doorstop is a tool to execute managed assemblies inside Unity as early as possible!</description>
+    <tags>unity</tags>
+    <projectUrl>https://github.com/DarkDaskin/UnityDoorstop/</projectUrl>
+    <repository type="git" url="https://github.com/DarkDaskin/UnityDoorstop.git" />
+  </metadata>
+  <files>
+    <file src="..\docs\doorstop_config.ini" target="content\doorstop_config.ini" />
+    <file src="..\Proxy\bin\x64\Release\proxy.dll" target="runtimes\win-x64\native\winhttp.dll" />
+    <file src="..\Proxy\bin\Win32\Release\proxy.dll" target="runtimes\win-x86\native\winhttp.dll" />
+  </files>
+</package>
